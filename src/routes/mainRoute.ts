@@ -46,6 +46,7 @@ routes.get("/shop-list", function(req,res){
                 checker = false;
                 break; 
             }
+                checker = true; 
        
             //return the json response with the shop object
         }else{
